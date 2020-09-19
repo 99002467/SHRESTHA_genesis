@@ -36,3 +36,19 @@ int factorial(int operand1)
   /* Recursively calculate Factorial of the number */
   return operand1 * factorial(operand1-1);
 }
+int checkForPrime(int operand1)
+{
+    if(int i==1)
+    {
+        return 1;
+    }
+    else if(operand1 %i==0)
+    {
+         return 0;
+    }     
+    else
+       {
+         i = i -1; 
+         checkForPrime(operand1);//calling the function checkForPrime itself recursively
+      }
+}
