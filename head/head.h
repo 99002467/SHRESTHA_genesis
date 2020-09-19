@@ -46,3 +46,4 @@ int divide(int operand1, int operand2);
 /*TO perform divison*/
 
 int factorial(int operand1);
+int checkForPrime(int operand1);
